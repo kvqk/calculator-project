@@ -13,12 +13,13 @@ body {
   height: 800px;
 }
 #panda {
-  width: 834px;
+  width: 100%;
   height: 320px;
   background: url("https://mymodernmet.com/wp/wp-content/uploads/2021/05/how-to-draw-panda-12.jpg");
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
   background-size: 100%;
 }
 #buttonsContainer {
@@ -85,6 +86,14 @@ body {
 }
 .wordColor {
   color: white;
+}
+#current {
+  margin-right: 75px;
+  margin-bottom: 10px;
+}
+#previous {
+  margin-right: 75px;
+  margin-bottom: 10px;
 }
 @media (max-width: 500px) {
   body {

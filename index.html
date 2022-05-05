@@ -6,46 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="index.css" />
-    <script src="./index.js"></script>
   </head>
   <body>
     <div id="container">
-      <div id="upperContainer">
+      <div id="panda">
+        <div id="previous" style="color: red"></div>
+        <div id="current"></div>
       </div>
-      <div id="answerContainer"></div>
       <div id="buttonsContainer">
         <div id="buttonBox">
           <div id="row1">
-            <button class="button black"><p id="ac" class="wordColor">AC</p></button>
-            <button class="button black"><p id="operator" class="wordColor">+/-</p></button>
-            <button class="button black"><p id="operator" class="wordColor">%</p></button>
-            <button class="button black"><p id="operator" class="wordColor">÷</p></button>
+            <button class="button black">
+              <p id="ac" class="wordColor">AC</p>
+            </button>
+            <button class="button black">
+              <p id="operator" class="wordColor">+/-</p>
+            </button>
+            <button class="button black">
+              <p id="operator" class="wordColor">%</p>
+            </button>
+            <button class="button black">
+              <p id="operator" class="wordColor">÷</p>
+            </button>
           </div>
           <div id="row2">
-            <button class="button"><p id="number">7</p></button>
+            <button class="button" id="number">7</button>
             <button class="button"><p id="number">8</p></button>
             <button class="button"><p id="number">9</p></button>
-            <button class="button black"><p id="operator" class="wordColor">x</p></button>
+            <button class="button black">
+              <p id="operator" class="wordColor">x</p>
+            </button>
           </div>
           <div id="row3">
             <button class="button white"><p id="number">4</p></button>
             <button class="button white"><p id="number">5</p></button>
             <button class="button"><p id="number">6</p></button>
-            <button class="button black"><p id="operator" class="wordColor">-</p></button>
+            <button class="button black">
+              <p id="operator" class="wordColor">-</p>
+            </button>
           </div>
           <div id="row4">
-            <button class="button white"><p class="numbers">1</p></button>
+            <button class="button white"><p id="number">1</p></button>
             <button class="button"><p id="number">2</p></button>
             <button class="button"><p id="number">3</p></button>
-            <button class="button black"><p id="operator" class="wordColor">+</p></button>
+            <button class="button black">
+              <p id="operator" class="wordColor">+</p>
+            </button>
           </div>
           <div id="row5">
-            <button id="longButton"><p>0</p></button>
+            <button id="longButton"><p id="number">0</p></button>
             <button class="button"><p>.</p></button>
-            <button class="button black"><p id="equalSign" class="wordColor">=</p></button>
+            <button class="button black">
+              <p id="equalSign" class="wordColor">=</p>
+            </button>
           </div>
         </div>
       </div>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>
