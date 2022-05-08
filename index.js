@@ -44,3 +44,8 @@ function chooseOperation(operater) {
   }
   current.innerText = answer;
 }
+let num1 
+let num2
+if(operator === "+"){
+  let
+}
