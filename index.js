@@ -31,7 +31,7 @@ operator.forEach((op) => {
 
 //apendNumberFunction this is for the decimal
 choosenOperator = op.innerText;
-    previous.innerText = ${current.innerText} ${op.innerText};
+    previous.innerText = `${current.innerText} ${op.innerText}`;
     current.innerText = "";
   });
 });
