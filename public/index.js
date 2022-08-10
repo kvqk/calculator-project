@@ -80,15 +80,3 @@ function chooseOperation() {
   current.innerText = answer;
   previous.innerText = "";
 }
-let teacher = {
-  age : 23,
-  name : "elbeg",
-  location : "wework"
-}
-console.log(teacher.age)
-console.log(teacher.name)
-console.log(teacher.location)
-teacher.married = false
-console.log(teacher)
-delete teacher["age"]
-console.log(teacher)
